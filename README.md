@@ -1,6 +1,6 @@
 # WanderNext
 
-**Strategic Exploration Studio** — one-page website.
+**Explore directions** — one-page website.
 
 ## Struktura
 
