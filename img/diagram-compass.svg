@@ -1,0 +1,35 @@
+<svg viewBox="0 0 480 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="480" fill="#f5f4f0"/>
+  <!-- Grid -->
+  <line x1="0" y1="120" x2="480" y2="120" stroke="#d0cfc8" stroke-width="1"/>
+  <line x1="0" y1="240" x2="480" y2="240" stroke="#d0cfc8" stroke-width="1"/>
+  <line x1="0" y1="360" x2="480" y2="360" stroke="#d0cfc8" stroke-width="1"/>
+  <line x1="120" y1="0" x2="120" y2="480" stroke="#d0cfc8" stroke-width="1"/>
+  <line x1="240" y1="0" x2="240" y2="480" stroke="#d0cfc8" stroke-width="1"/>
+  <line x1="360" y1="0" x2="360" y2="480" stroke="#d0cfc8" stroke-width="1"/>
+  <!-- Orbit rings -->
+  <circle cx="240" cy="240" r="60" stroke="#0a0a0a" stroke-width="0.5" stroke-dasharray="4 4" opacity="0.35"/>
+  <circle cx="240" cy="240" r="110" stroke="#0a0a0a" stroke-width="0.5" stroke-dasharray="4 4" opacity="0.2"/>
+  <!-- Center dot -->
+  <circle cx="240" cy="240" r="10" fill="#0a0a0a"/>
+  <!-- Direction endpoints -->
+  <circle cx="240" cy="120" r="7" fill="#1268E5"/>
+  <circle cx="360" cy="240" r="7" fill="#32B413"/>
+  <circle cx="240" cy="360" r="7" fill="#F44C08"/>
+  <circle cx="120" cy="240" r="7" fill="#ECA107"/>
+  <!-- Direction lines -->
+  <line x1="240" y1="240" x2="240" y2="130" stroke="#1268E5" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="240" y1="240" x2="350" y2="240" stroke="#32B413" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="240" y1="240" x2="240" y2="350" stroke="#F44C08" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="240" y1="240" x2="130" y2="240" stroke="#ECA107" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <!-- Diagonal lines -->
+  <line x1="240" y1="240" x2="320" y2="160" stroke="#601E96" stroke-width="1" stroke-dasharray="3 4" opacity="0.7"/>
+  <line x1="240" y1="240" x2="160" y2="160" stroke="#9D3874" stroke-width="1" stroke-dasharray="3 4" opacity="0.7"/>
+  <!-- Arrowheads -->
+  <path d="M240 130 L236 145 L240 140 L244 145 Z" fill="#1268E5"/>
+  <path d="M350 240 L335 236 L340 240 L335 244 Z" fill="#32B413"/>
+  <path d="M240 350 L244 335 L240 340 L236 335 Z" fill="#F44C08"/>
+  <path d="M130 240 L145 244 L140 240 L145 236 Z" fill="#ECA107"/>
+  <!-- Label -->
+  <text x="240" y="266" text-anchor="middle" fill="#0a0a0a" opacity="0.2" font-size="9" font-family="DM Sans, sans-serif" letter-spacing="2">ORIGIN POINT</text>
+</svg>
